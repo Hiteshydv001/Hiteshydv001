@@ -6,9 +6,9 @@
 
 - 🔭 I’m currently studying in **Chandigarh University**
 
-- 🌱 I’m currently learning **C programming language**
+- 🌱 I’m persuing Computer Science engineering in specialisation with **Artificial intelligence and Machine learning**
 
-- 📫 How to reach me **hiteshydv001@gmail.com**
+- 📫 How to reach me **hiteshofficial0001@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
