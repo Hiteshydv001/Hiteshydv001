@@ -1,4 +1,6 @@
 ![logo](https://github.com/Hiteshydv001/Hiteshydv001/blob/main/banner.png)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=800&pause=1000&color=9F8FF7&width=435&lines=AI%2FML+Student+%7C+Coding+the+Future+with+Machine+Learning+%26+Generative+AI+%7C+C%2C+C%2B%2B%2C+Python%2C+Java+%7C+Machine+Learning%2C+Data+Science%2C+Generative+AI+Enthusiast)](https://git.io/typing-svg)
 <h1 align="center">Hi 👋, I'm Hitesh Kumar</h1>
 <h3 align="center">Computer Science Engineer</h3>
 <img align="right"alt="coding"width="400"src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
