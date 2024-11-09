@@ -1,6 +1,7 @@
 ![logo](https://github.com/Hiteshydv001/Hiteshydv001/blob/main/banner.png)
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=800&pause=1000&color=9F8FF7&multiline=true&width=435&height=57&lines=AI%2FML+Student+%7C+Coding+the+Future+with+Machine+Learning+%26+Generative+AI+%7C+C%2C+C%2B%2B%2C+Python%2C+Java+%7C+Machine+Learning%2C+Data+Science%2C+Generative+AI+Enthusiast" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=400&duration=800&pause=1000&color=9F8FF7&center=true&width=20000&height=3000&lines=AI%2FML+Student+%7C+;Coding+the+Future+with+ML+%26+Generative+AI+%7C+;C%2C+C%2B%2B%2C+Python%2C+Java+%7C+Machine+Learning%2C;Data+Science%2C+Generative+AI+Enthusiast;Let%E2%80%99s+connect+and+build+the+next+generation+of+intelligent+systems!+%F0%9F%8C%9F" alt="Typing SVG" /></a>
+
 <h1 align="center">Hi 👋, I'm Hitesh Kumar</h1>
 <h3 align="center">Computer Science Engineer</h3>
 <img align="right"alt="coding"width="400"src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
