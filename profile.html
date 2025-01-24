@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitesh Kumar - GitHub Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #2C001E;
+            padding: 2rem;
+            color: white;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 1024px;
+            width: 100%;
+        }
+
+        .terminal {
+            background-color: #300A24;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            border: 1px solid #4A4A4A;
+            box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+        }
+
+        .terminal-header {
+            background-color: #3D3D3D;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .terminal-title {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+        }
+
+        .window-controls {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .control {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .control.close {
+            background-color: #FF5F57;
+        }
+
+        .control.minimize {
+            background-color: #FFBD2E;
+        }
+
+        .control.maximize {
+            background-color: #28CA41;
+        }
+
+        .terminal-content {
+            padding: 1.5rem;
+        }
+
+        .prompt {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #4BB543;
+            margin-bottom: 1rem;
+        }
+
+        .command-line {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .cursor {
+            width: 8px;
+            height: 20px;
+            background-color: white;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        .section {
+            margin-top: 2rem;
+        }
+
+        .section-title {
+            color: #FF7ACC;
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .profile-header img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .profile-header h1 {
+            font-size: 2rem;
+            color: #4BB543;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-header h3 {
+            color: #D1D1D1;
+            margin-bottom: 1rem;
+        }
+
+        .about-list {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        .about-list li {
+            margin-bottom: 0.5rem;
+            color: #D1D1D1;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .social-links a {
+            color: #4BB543;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .social-links a:hover {
+            color: #FF7ACC;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .project-card {
+            background-color: #3D3D3D;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.2s;
+        }
+
+        .project-card:hover {
+            background-color: #4A4A4A;
+        }
+
+        .project-title {
+            color: #4BB543;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-description {
+            color: #D1D1D1;
+            font-size: 0.875rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background-color: #3D3D3D;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4BB543;
+        }
+
+        .stat-label {
+            color: #D1D1D1;
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+        .code-block {
+            background-color: #3D3D3D;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+            white-space: pre-wrap;
+            font-family: monospace;
+            text-align: left;
+        }
+
+        .education-list {
+            list-style: none;
+        }
+
+        .education-list li {
+            color: #D1D1D1;
+            margin-bottom: 0.5rem;
+        }
+
+
+        .competencies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .competency-tile {
+            background-color: #3D3D3D;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            transition: background-color 0.3s, transform 0.2s;
+            text-decoration: none;
+            color: white;
+        }
+
+        .competency-tile:hover {
+            background-color: #4A4A4A;
+            transform: translateY(-5px);
+        }
+
+        .competency-tile h4 {
+            color: #4BB543;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        .competency-tile p {
+            color: #D1D1D1;
+            font-size: 0.875rem;
+        }
+
+
+        .trophy-section {
+            text-align: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .trophy-section a {
+            text-decoration: none;
+        }
+
+        .trophy-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .trophy-image:hover {
+            transform: scale(1.05);
+        }
+
+
+        .stats-section {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .stats-section h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .stat-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        .stat-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        
+            .experience-section {
+                margin-top: 2rem;
+                padding: 1rem;
+            }
+        
+            .experience-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                gap: 1.5rem;
+            }
+        
+            .experience-card {
+                background-color: #3D3D3D;
+                border-radius: 0.5rem;
+                padding: 1rem;
+                transition: background-color 0.3s, transform 0.2s;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+        
+            .experience-card:hover {
+                background-color: #4A4A4A;
+                transform: translateY(-5px);
+            }
+        
+            .experience-title {
+                color: #4BB543;
+                font-weight: bold;
+                font-size: 1.25rem;
+                margin-bottom: 0.5rem;
+            }
+        
+            .experience-duration {
+                color: #FF7ACC;
+                font-size: 0.875rem;
+                margin-bottom: 0.5rem;
+            }
+        
+            .experience-description {
+                color: #D1D1D1;
+                font-size: 0.875rem;
+                line-height: 1.5;
+            }
+
+          
+                .certifications-section {
+                    margin-top: 2rem;
+                    padding: 1rem;
+                }
+            
+                .section-title {
+                    font-size: 1.5rem;
+                    color: #FF7ACC;
+                    margin-bottom: 1rem;
+                }
+            
+                .certifications-grid {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                    gap: 1.5rem;
+                }
+            
+                .certification-card {
+                    background-color: #3D3D3D;
+                    border-radius: 0.5rem;
+                    padding: 1rem;
+                    transition: transform 0.2s, background-color 0.3s;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+                    text-align: center;
+                }
+            
+                .certification-card:hover {
+                    background-color: #4A4A4A;
+                    transform: translateY(-5px);
+                }
+            
+                .certification-logo {
+                    max-width: 60px;
+                    margin-bottom: 0.5rem;
+                }
+            
+                .certification-title {
+                    color: #4BB543;
+                    font-weight: bold;
+                    font-size: 1.1rem;
+                    margin-bottom: 0.5rem;
+                }
+            
+                .certification-issuer,
+                .certification-skills,
+                .certification-id {
+                    color: #D1D1D1;
+                    font-size: 0.875rem;
+                    margin-bottom: 0.5rem;
+                }
+            
+            
+             
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="terminal">
+            <div class="terminal-header">
+                <div class="terminal-title">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="4 17 10 11 4 5"></polyline>
+                        <line x1="12" y1="19" x2="20" y2="19"></line>
+                    </svg>
+                    <span>hitesh@github: ~/portfolio</span>
+                </div>
+                <div class="window-controls">
+                    <div class="control close"></div>
+                    <div class="control minimize"></div>
+                    <div class="control maximize"></div>
+                </div>
+            </div>
+            <div class="terminal-content">
+                <div class="prompt">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                    <span>visitor@github</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                    <span>~/portfolio</span>
+                </div>
+                <div class="command-line">
+                    <span style="color: #4BB543;">$</span>
+                    <span id="typed-text"></span>
+                    <div class="cursor"></div>
+                </div>
+
+                <div class="profile-header">
+                    <h1>Hi 👋, I'm Hitesh Kumar</h1>
+                    <h3>Computer Science Engineer</h3>
+                    <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="coding"
+                        style="width: 400px;">
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">About Me</h2>
+                    <ul class="about-list">
+                        <li>🔭 Currently studying at <strong>Chandigarh University</strong></li>
+                        <li>🌱 Pursuing Computer Science with specialization in <strong>AI and Machine Learning</strong>
+                        </li>
+                        <li>📫 Reach me at: <a href="mailto:hiteshofficial0001@gmail.com"
+                                style="color: #4BB543;">hiteshofficial0001@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="experience-section">
+                    <h2 class="section-title">Experience</h2>
+                    <div class="experience-grid">
+                        <div class="experience-card">
+                            <h3 class="experience-title">Social Winter of Code (SWOC)</h3>
+                            <p class="experience-duration">Project Maintainer | December 2024 – Present</p>
+                            <p class="experience-description">
+                                Contributed to an open-source project by managing workflow and features.
+                            </p>
+                        </div>
+                        <div class="experience-card">
+                            <h3 class="experience-title">African Association of Entrepreneurs</h3>
+                            <p class="experience-duration">Web Developer | October 2024 – January 2025</p>
+                            <p class="experience-description">
+                                Designed a French version of the main website and translated articles from English to French.
+                            </p>
+                        </div>
+                        <div class="experience-card">
+                            <h3 class="experience-title">Edunet Foundation</h3>
+                            <p class="experience-duration">AI/ML Intern | November 2024 – December 2024</p>
+                            <p class="experience-description">
+                                Built a waste classification project using CNN, YOLO, and Streamlit, selected among 60 finalists.
+                            </p>
+                        </div>
+                        <div class="experience-card">
+                            <h3 class="experience-title">Think Blue Data</h3>
+                            <p class="experience-duration">Volunteer | September 2024 – October 2024</p>
+                            <p class="experience-description">
+                                Annotated datasets and developed models for societal planning in Thailand.
+                            </p>
+                        </div>
+                        <div class="experience-card">
+                            <h3 class="experience-title">AICTE</h3>
+                            <p class="experience-duration">Generation Green Internship | August 2024 – October 2024</p>
+                            <p class="experience-description">
+                                Learned e-waste management and green skills, focusing on AI-powered solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+
+                <div class="section">
+                    <h2 class="section-title">Tech Profile</h2>
+                    <div class="code-block">
+                        const Hitesh_Kumar = {
+                        pronouns: "he" | "him",
+                        code: ["C", "Python", "C++", "Javascript", "HTML", "CSS", "Kotlin"],
+                        tools: ["Jupyter Notebook-Anaconda_env", "Git", "GitHub", "Pycharm", "Android Studio"],
+                        skills: [
+                        "Web development (HTML/CSS/JavaScript)",
+                        "Android development (Kotlin)",
+                        "C",
+                        "C++",
+                        "Java",
+                        "Python",
+                        "Machine Learning and Artificial Intelligence 🤖",
+                        "MS Office",
+                        ],
+                        experience: {
+                        internship: "Bharat Intern @Machine learning 🎓",
+                        },
+                        competitiveProgrammingSkills: {
+                        CodeForces: "Working on it 🏆",
+                        Codechef: "Working on it 🍽️",
+                        LeetCode: "Working on it 🔐",
+                        },
+                        techCommunities: {
+                        iaengMember: "IAENG member",
+                        adcMember: "ADC community",
+                        },
+                        about:
+                        "🚀 I am a computer science undergrad who is passionate about learning and creating solutions. I
+                        have worked with web and mobile technologies, and I have experience in Machine Learning and Deep
+                        Learning. Currently, I am exploring many horizons and participating in competitive programming.
+                        Let's code and innovate together! 🌟",
+                        };
+
+                        console.log(Hitesh_Kumar);
+
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h3 class="project-title">Train Ticket Prediction</h3>
+                            <p class="project-description">ML-based prediction system for waitlisted ticket confirmation
+                                using Python and Google Colab</p>
+                        </div>
+                        <div class="project-card">
+                            <h3 class="project-title">Government Exam App</h3>
+                            <p class="project-description">Android application built with Kotlin and XML for government
+                                exam preparation</p>
+                        </div>
+                        <div class="project-card">
+                            <h3 class="project-title">SMS Spam Detection</h3>
+                            <p class="project-description">Web-based spam detection system using Python and machine
+                                learning</p>
+                        </div>
+                        <div class="project-card">
+                            <h3 class="project-title">Mask Detection</h3>
+                            <p class="project-description">Real-time mask detection system using Python and computer
+                                vision</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Education</h2>
+                    <ul class="education-list">
+                        <li>📚 B.Tech. in Computer Engineering (2nd Year) - Chandigarh University, Punjab, CGPA (7.98)
+                        </li>
+                        <li>📚 Intermediate - Pathfinder Global School, Pataudi (88%)</li>
+                        <li>📚 Matric - Pathfinder Global School, Pataudi (91.4%)</li>
+                    </ul>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h3 class="section-title">Skills</h3>
+                    <ul>
+                        <li>Competitive Coding</li>
+                        <li>Machine Learning, Deep Learning</li>
+                        <li>Programming Languages: Core Java, Python</li>
+                        <li>Web Development (HTML/CSS/JavaScript)</li>
+                        <li>Android Development (Kotlin)</li>
+                        <li>C || C++ || JAVA || PYTHON</li>
+                        <li>Machine Learning and Artificial Intelligence</li>
+                        <li>MS Office</li>
+                    </ul>
+                </div>
+
+                <!-- Add the new Competencies section before the Connect section -->
+                <div class="section competencies-section">
+                    <h2 class="section-title">Core Competencies</h2>
+                    <div class="competencies-grid">
+                        <a href="https://www.java.com" target="_blank" class="competency-tile">
+                            <h4>Java</h4>
+                            <p>Core Java Development</p>
+                        </a>
+                        <a href="https://isocpp.org" target="_blank" class="competency-tile">
+                            <h4>C++</h4>
+                            <p>Systems Programming</p>
+                        </a>
+                        <a href="https://www.python.org" target="_blank" class="competency-tile">
+                            <h4>Python</h4>
+                            <p>ML & Data Science</p>
+                        </a>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                            class="competency-tile">
+                            <h4>JavaScript</h4>
+                            <p>Web Development</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2 class="section-title">Machine Learning Stack</h2>
+                    <div class="competencies-grid">
+                        <a href="https://scikit-learn.org" target="_blank" class="competency-tile">
+                            <h4>scikit-learn</h4>
+                            <p>Machine Learning</p>
+                        </a>
+                        <a href="https://pandas.pydata.org" target="_blank" class="competency-tile">
+                            <h4>pandas</h4>
+                            <p>Data Analysis</p>
+                        </a>
+                        <a href="https://pytorch.org" target="_blank" class="competency-tile">
+                            <h4>PyTorch</h4>
+                            <p>Deep Learning</p>
+                        </a>
+                        <a href="https://matplotlib.org" target="_blank" class="competency-tile">
+                            <h4>matplotlib</h4>
+                            <p>Data Visualization</p>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certifications-section">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="certifications-grid">
+                        <!-- Salesforce Certified AI Specialist -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Salesforce.com_logo.svg" alt="Salesforce Logo" class="certification-logo">
+                            <h3 class="certification-title">Salesforce Certified AI Specialist</h3>
+                            <p class="certification-issuer">Issued by Salesforce | Dec 2024 – Dec 2028</p>
+                            <p class="certification-skills">Skills: Generative AI</p>
+                        </div>
+                
+                        <!-- GitHub Foundations -->
+                        <div class="certification-card">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" class="certification-logo">
+                            <h3 class="certification-title">GitHub Foundations</h3>
+                            <p class="certification-issuer">Issued by GitHub | Nov 2024 – Nov 2027</p>
+                        </div>
+                
+                        <!-- Postman API Fundamentals Student Expert -->
+                        <div class="certification-card">
+                            <img src="https://www.postman.com/icons/icon-48x48.png?v=2" alt="Postman Logo" class="certification-logo">
+                            <h3 class="certification-title">Postman API Fundamentals Student Expert</h3>
+                            <p class="certification-issuer">Issued by Postman | Nov 2024</p>
+                            <p class="certification-id">Credential ID: 672a660a58b626319e1256fb</p>
+                        </div>
+                
+                        <!-- Predictive Analytics using IBM SPSS Modeler -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" class="certification-logo">
+                            <h3 class="certification-title">Predictive Analytics using IBM SPSS Modeler</h3>
+                            <p class="certification-issuer">Issued by IBM | Nov 2024</p>
+                            <p class="certification-id">Credential ID: df367e4830954b729a83103387e3d315</p>
+                        </div>
+                
+                        <!-- Advanced Credit Program - AI Models -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Chandigarh_University_Logo.png" alt="Chandigarh University Logo" class="certification-logo">
+                            <h3 class="certification-title">Advanced Credit Program - AI Models</h3>
+                            <p class="certification-issuer">Issued by Chandigarh University | Oct 2024</p>
+                        </div>
+                
+                        <!-- Data Analyst Associate -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Datacamp_logo.png" alt="DataCamp Logo" class="certification-logo">
+                            <h3 class="certification-title">Data Analyst Associate</h3>
+                            <p class="certification-issuer">Issued by DataCamp | Oct 2024 – Oct 2026</p>
+                            <p class="certification-id">Credential ID: DAA0011328888719</p>
+                        </div>
+                
+                        <!-- Intel AI Global Impact Festival 2024 -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Intel_logo_%282020%29.png" alt="Intel Logo" class="certification-logo">
+                            <h3 class="certification-title">Intel AI Global Impact Festival 2024</h3>
+                            <p class="certification-issuer">Issued by Intel Corporation | Oct 2024</p>
+                        </div>
+                
+                        <!-- Salesforce Certified AI Associate -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Salesforce.com_logo.svg" alt="Salesforce Logo" class="certification-logo">
+                            <h3 class="certification-title">Salesforce Certified AI Associate</h3>
+                            <p class="certification-issuer">Issued by Salesforce | Oct 2024 – Dec 2027</p>
+                        </div>
+                
+                        <!-- Scrum Foundation Professional Certification - SFPC -->
+                        <div class="certification-card">
+                            <img src="https://certiprof.com/wp-content/uploads/2021/01/logo-certiprof.png" alt="Certiprof Logo" class="certification-logo">
+                            <h3 class="certification-title">Scrum Foundation Professional Certification - SFPC™</h3>
+                            <p class="certification-issuer">Issued by Certiprof | Oct 2024 – Oct 2027</p>
+                        </div>
+                
+                        <!-- Applied Machine Learning in Python -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Coursera-Logo.png" alt="Coursera Logo" class="certification-logo">
+                            <h3 class="certification-title">Applied Machine Learning in Python</h3>
+                            <p class="certification-issuer">Issued by Coursera (University of Michigan) | Sep 2024 – Sep 2026</p>
+                        </div>
+                
+                        <!-- Machine Learning with Python -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Coursera-Logo.png" alt="freeCodeCamp Logo" class="certification-logo">
+                            <h3 class="certification-title">Machine Learning with Python</h3>
+                            <p class="certification-issuer">Issued by freeCodeCamp | Sep 2024</p>
+                            <p class="certification-id">Credential ID: hitesh_aiml-mlwp</p>
+                        </div>
+                
+                        <!-- Multicloud Network Associate -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Aviatrix_logo.png" alt="Aviatrix Logo" class="certification-logo">
+                            <h3 class="certification-title">Multicloud Network Associate</h3>
+                            <p class="certification-issuer">Issued by Aviatrix | Sep 2024 – Sep 2027</p>
+                        </div>
+                
+                        <!-- Generative AI Fundamentals Accreditation -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Databricks_logo.png" alt="Databricks Logo" class="certification-logo">
+                            <h3 class="certification-title">Generative AI Fundamentals Accreditation</h3>
+                            <p class="certification-issuer">Issued by Databricks | Aug 2024 – Aug 2026</p>
+                        </div>
+                
+                        <!-- Getting Started with Artificial Intelligence -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" class="certification-logo">
+                            <h3 class="certification-title">Getting Started with Artificial Intelligence</h3>
+                            <p class="certification-issuer">Issued by IBM | Aug 2024</p>
+                        </div>
+                
+                        <!-- Data Visualisation: Empowering Business with Effective Insights -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/Tata_Group_logo.svg" alt="Tata Group Logo" class="certification-logo">
+                            <h3 class="certification-title">Data Visualisation: Empowering Business with Effective Insights</h3>
+                            <p class="certification-issuer">Issued by Tata Group | Jul 2024</p>
+                        </div>
+                
+                        <!-- Oracle Cloud Infrastructure 2024 Generative AI Certified Professional -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Oracle_logo.svg" alt="Oracle Logo" class="certification-logo">
+                            <h3 class="certification-title">Oracle Cloud Infrastructure 2024 Generative AI Certified Professional</h3>
+                            <p class="certification-issuer">Issued by Oracle | Jul 2024</p>
+                        </div>
+                
+                        <!-- AI-900: Microsoft Azure AI Fundamentals -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Microsoft_logo_%282012%29.svg" alt="Microsoft Logo" class="certification-logo">
+                            <h3 class="certification-title">AI-900: Microsoft Azure AI Fundamentals</h3>
+                            <p class="certification-issuer">Issued by Microsoft | Jun 2024</p>
+                        </div>
+                
+                        <!-- RS and GIS Management / Automated Feature Extraction from High-Resolution Images -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/ISRO_logo.svg" alt="ISRO Logo" class="certification-logo">
+                            <h3 class="certification-title">RS and GIS Management / Automated Feature Extraction from High-Resolution Images</h3>
+                            <p class="certification-issuer">Issued by ISRO | Nov 2023</p>
+                        </div>
+                
+                        <!-- Data Science Orientation -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Coursera_logo.svg" alt="Coursera Logo" class="certification-logo">
+                            <h3 class="certification-title">Data Science Orientation</h3>
+                            <p class="certification-issuer">Issued by Coursera | Oct 2023</p>
+                        </div>
+                
+                        <!-- StartUp India Learning Program -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/StartUp_India_logo.svg" alt="StartUp India Logo" class="certification-logo">
+                            <h3 class="certification-title">StartUp India Learning Program</h3>
+                            <p class="certification-issuer">Issued by Invest India | Oct 2023</p>
+                        </div>
+                
+                        <!-- What is Data Science? -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo" class="certification-logo">
+                            <h3 class="certification-title">What is Data Science?</h3>
+                            <p class="certification-issuer">Issued by IBM | Oct 2023</p>
+                        </div>
+                
+                        <!-- SnapAR Hackathon -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Snapchat_logo.svg" alt="Snap Inc. Logo" class="certification-logo">
+                            <h3 class="certification-title">SnapAR Hackathon</h3>
+                            <p class="certification-issuer">Issued by Snap Inc. | May 2023</p>
+                        </div>
+                
+                        <!-- Workshop on AI/ML -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/National_Institutes_of_Health_logo.svg" alt="NI Logo" class="certification-logo">
+                            <h3 class="certification-title">Workshop on AI/ML</h3>
+                            <p class="certification-issuer">Issued by National Instruments | May 2023</p>
+                        </div>
+                
+                        <!-- NvdiaGTC -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/1/18/NVIDIA_logo.svg" alt="NVIDIA Logo" class="certification-logo">
+                            <h3 class="certification-title">NvdiaGTC</h3>
+                            <p class="certification-issuer">Issued by NVIDIA | Mar 2023</p>
+                        </div>
+                
+                        <!-- Bootcamp for Web Development -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/DevTown_logo.png" alt="DevTown Logo" class="certification-logo">
+                            <h3 class="certification-title">Bootcamp for Web Development</h3>
+                            <p class="certification-issuer">Issued by DevTown | Sep 2022</p>
+                        </div>
+                
+                        <!-- Oracle Cloud Data Management Foundation Associate -->
+                        <div class="certification-card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Oracle_logo.svg" alt="Oracle Logo" class="certification-logo">
+                            <h3 class="certification-title">Oracle Cloud Data Management Foundation Associate</h3>
+                            <p class="certification-issuer">Issued by Oracle | Aug 2024 (Expired)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+
+                <div class="section">
+                    <h2 class="section-title">Tech Profile</h2>
+                    <div class="code-block">
+                        const Hitesh_Kumar = {
+                        workingOn: "Competitive programming 🔭",
+                        learning: "Machine Learning 🌱",
+                        lookingToCollaborateOn: "Open to collaboration on competitive programming projects 👯",
+                        lookingForHelpWith: "Seeking assistance with challenging competitive programming problems 🤔",
+                        askMeAbout: "Feel free to ask me about competitive programming or any coding-related questions
+                        💬",
+                        howToReachMe: "You can reach me for competitive programming discussions via email or LinkedIn
+                        📫",
+                        passion: "I am passionate about competitive programming, finding challenge, fun, and joy in it
+                        😄",
+                        funFact: "Fun fact: Competitive programming is not just a hobby; it's my passion! ⚡",
+                        };
+
+                        console.log(Hitesh_Kumar);
+                    </div>
+                </div>
+                <div class="section">
+                    <h2 class="section-title">Connect with me</h2>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/hitesh-kumar-4b2735252" target="_blank">LinkedIn</a>
+                        <a href="https://github.com/Hiteshydv001" target="_blank">GitHub</a>
+                        <a href="https://kaggle.com/hiteshofficial" target="_blank">Kaggle</a>
+                        <a href="https://www.codechef.com/users/hiteshydv001" target="_blank">CodeChef</a>
+                    </div>
+                </div>
+                <div class="trophy-section">
+                    <a href="https://github.com/Hiteshydv001/github-profile-trophy" target="_blank">
+                        <img src="https://github-profile-trophy.vercel.app/?username=Hiteshydv001" alt="GitHub Trophies"
+                            class="trophy-image">
+                    </a>
+                </div>
+
+                <div class="stats-section">
+                    <h3>
+                        <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="40"
+                            alt="Stats Icon"> My Stats
+                    </h3>
+                    <div class="stat-container">
+                        <div class="stat-item">
+                            <img src="https://github-readme-stats.vercel.app/api?username=Hiteshydv001&show_icons=true&locale=en"
+                                alt="GitHub Stats">
+                        </div>
+                        <div class="stat-item">
+                            <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hiteshydv001&"
+                                alt="GitHub Streak Stats">
+                        </div>
+                        <div class="stat-item">
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Hiteshydv001&show_icons=true&locale=en&layout=compact"
+                                alt="Top Languages">
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const welcomeText = 'cat hitesh_profile.md';
+        let index = 0;
+        const typedTextElement = document.getElementById('typed-text');
+
+        function typeText() {
+            if (index < welcomeText.length) {
+                typedTextElement.textContent += welcomeText.charAt(index);
+                index++;
+                setTimeout(typeText, 100);
+            }
+        }
+
+        window.addEventListener('load', typeText);
+    </script>
+</body>
+
+</html>
