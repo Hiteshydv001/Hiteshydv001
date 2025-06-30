@@ -1,0 +1,94 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Mac Body Gradient -->
+    <linearGradient id="macBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F7F7F7"/>
+      <stop offset="50%" stop-color="#DADADA"/>
+      <stop offset="100%" stop-color="#B0B0B0"/>
+    </linearGradient>
+
+    <!-- Screen Background -->
+    <radialGradient id="screenBG" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+
+    <!-- Terminal Green Glow -->
+    <radialGradient id="glow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="rgba(0,255,0,0.08)"/>
+      <stop offset="100%" stop-color="rgba(0,255,0,0)"/>
+    </radialGradient>
+
+    <!-- Stand Gradient -->
+    <linearGradient id="standGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E0E0E0"/>
+      <stop offset="100%" stop-color="#999"/>
+    </linearGradient>
+
+    <!-- Blink -->
+    <style>
+      .cursor { animation: blink 1s step-end infinite; fill: #00ff00; }
+      @keyframes blink { 50% { opacity: 0; } }
+
+      .terminal-text {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 15px;
+        fill: #00ff00;
+        text-shadow: 0 0 4px #00ff00;
+      }
+
+      .prompt { fill: #00ff55; font-weight: bold; }
+      .command { fill: #ffffff; }
+      .output { fill: #00ff88; }
+    </style>
+  </defs>
+
+  <!-- Monitor Shadow -->
+  <ellipse cx="400" cy="580" rx="340" ry="12" fill="rgba(0,0,0,0.15)" />
+
+  <!-- Stand -->
+  <path d="M 380 460 L 420 460 L 415 500 L 385 500 Z" fill="url(#standGradient)" />
+  <ellipse cx="400" cy="510" rx="80" ry="6" fill="url(#standGradient)" />
+
+  <!-- Monitor Body -->
+  <g>
+    <rect x="100" y="60" width="600" height="380" rx="24" fill="url(#macBody)" />
+    <rect x="115" y="75" width="570" height="340" rx="14" fill="#111" />
+    <rect x="125" y="85" width="550" height="320" rx="10" fill="url(#screenBG)" />
+    <rect x="125" y="85" width="550" height="320" rx="10" fill="url(#glow)" />
+  </g>
+
+  <!-- Terminal Top Bar -->
+  <rect x="140" y="100" width="510" height="28" rx="8" fill="#2a2a2a" />
+  <circle cx="155" cy="114" r="5" fill="#ff5f56"/>
+  <circle cx="175" cy="114" r="5" fill="#ffbd2e"/>
+  <circle cx="195" cy="114" r="5" fill="#27c93f"/>
+  <text x="400" y="118" font-family="Arial" font-size="12" fill="#ccc" text-anchor="middle">Terminal</text>
+
+  <!-- Terminal Content Background -->
+  <rect x="140" y="128" width="510" height="275" rx="0" fill="#000" />
+
+  <!-- Terminal Text -->
+  <g transform="translate(160, 160)">
+    <text y="0" class="terminal-text">
+      <tspan class="prompt">hitesh@macbook-pro:~$</tspan>
+      <tspan class="command" dx="10">./show-projects --ai</tspan>
+    </text>
+    <text y="30" class="terminal-text output">Initializing AI project showcase...</text>
+    <text y="55" class="terminal-text output">Loading projects...</text>
+    <text y="90" class="terminal-text output">✓ [1] Multi-RAG-Agent-Tools</text>
+    <text y="115" class="terminal-text output">✓ [2] Guard-AI-Remote-Proctoring-System</text>
+    <text y="140" class="terminal-text output">✓ [3] Train-Waitlisted-Ticket-Prediction</text>
+    <text y="175" class="terminal-text">
+      <tspan class="prompt">hitesh@macbook-pro:~$</tspan>
+      <tspan class="cursor">█</tspan>
+    </text>
+  </g>
+
+  <!-- Apple Logo -->
+  <g transform="translate(400, 460)">
+    <path d="M -8 -12 C -8 -16, -5 -18, -2 -18 C 0 -18, 2 -17, 3 -15 C 4 -13, 3 -11, 2 -9 C 4 -9, 6 -7, 6 -4 C 6 0, 3 3, 0 3 C -3 3, -6 0, -6 -4 C -6 -7, -4 -9, -2 -9 C -3 -11, -4 -13, -3 -15 C -2 -17, 0 -18, -2 -18 C -5 -18, -8 -16, -8 -12 Z
+             M -1 -20 C -1 -21, 0 -22, 1 -21 C 2 -20, 1 -19, 0 -19 C -1 -19, -1 -20, -1 -20 Z"
+          fill="#555" opacity="0.75"/>
+  </g>
+</svg>
