@@ -1,171 +1,152 @@
-![logo](https://github.com/Hiteshydv001/Hiteshydv001/blob/main/banner.png)
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=400&duration=800&pause=1000&color=9F8FF7&center=true&width=20000&height=3000&lines=AI%2FML+Student+%7C+;Coding+the+Future+with+ML+%26+Generative+AI+%7C+;C%2C+C%2B%2B%2C+Python%2C+Java%2C+Machine+Learning+%7C;Data+Science%2C+GenAI+Enthusiast+%7C;Let%E2%80%99s+connect+and+build+the+next+generation+of+intelligent+systems!+%F0%9F%8C%9F" alt="Typing SVG" /></a>
-
-<h1 align="center">Hi 👋, I'm Hitesh Kumar</h1>
-<h3 align="center">Computer Science Engineer</h3>
-<img align="right"alt="coding"width="400"src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=hiteshydv001&label=Profile%20views&color=0e75b6&style=flat" alt="hiteshydv001" /> </p>
-
-- 🔭 I’m currently studying in **Chandigarh University**
-
-- 🌱 I’m persuing Computer Science engineering in specialisation with **Artificial intelligence and Machine learning**
-
-- 📫 How to reach me **hiteshofficial0001@gmail.com**
-
-<br/>
-
-
-[![Linkedin: Hitesh Kumar](https://img.shields.io/badge/Hitesh-Kumar?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/hitesh-kumar-4b2735252/)](https://www.linkedin.com/in/hitesh-kumar-4b2735252/)
-[![GitHub Hiteshydv001](https://img.shields.io/github/followers/Hiteshydv001?label=follow&style=social)](https://github.com/Hiteshydv001/Hiteshydv001)
-
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="www.linkedin.com/in/hitesh-kumar-4b2735252" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hiteshydv001@gmail.com" height="30" width="40" /></a>
-<a href="https://kaggle.com/hiteshofficial" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="hitesh@official" height="30" width="40" /></a>
-<a href="https://instagram.com/ydv_hitesh_0001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ydv_hitesh_0001" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/hiteshydv001" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="hiteshydv001" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/@hiteshydv001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="@hiteshydv001" height="30" width="40" /></a>
-<a href="https://www.hackerearth.com/@hitesh_001" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@hitesh_001" height="30" width="40" /></a>
-<a href="https://discord.gg/#1607" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="#1607" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://github.com/Hiteshydv001">
+    <img src="https://github.com/Hiteshydv001/Hiteshydv001/blob/main/banner.png" alt="Hitesh Kumar Banner" width="100%">
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
-
-### <img src="https://media.giphy.com/media/D1kBaRvs9LmaYU3CsF/giphy.gif" width="50"> About a engineer...  
-
-<br/>
-
-```javascript
-const Hitesh_Kumar = {
-  pronouns: "he" | "him",
-  code: ["C", "Python", "C++", "Javascript", "HTML", "CSS", "Kotlin"],
-  tools: ["Jupyter Notebook-Anaconda_env", "Git", "GitHub", "Pycharm", "Android Studio"],
-  skills: [
-    "Web development (HTML/CSS/JavaScript)",
-    "Android development (Kotlin)",
-    "C",
-    "C++",
-    "Java",
-    "Python",
-    "Machine Learning and Artificial Intelligence 🤖",
-    "MS Office",
-  ],
-  experience: {
-    internship: "Bharat Intern @Machine learning 🎓",
-  },
-  competitiveProgrammingSkills: {
-    CodeForces: "Working on it 🏆",
-    Codechef: "Working on it 🍽️",
-    LeetCode: "Working on it 🔐",
-  },
-  techCommunities: {
-    iaengMember: "IAENG member",
-    adcMember: "ADC community",
-  },
-  about:
-    "🚀 I am a computer science undergrad who is passionate about learning and creating solutions. I have worked with web and mobile technologies, and I have experience in Machine Learning and Deep Learning. Currently, I am exploring many horizons and participating in competitive programming. Let's code and innovate together! 🌟",
-};
-
-console.log(Hitesh_Kumar);
-
-
-```
-
-
-<h3 align="left">Let's connect in this revolution</h3>
-
-
-### <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="40"> My Stats 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=hiteshydv001&show_icons=true&locale=en" alt="hiteshydv001" /></p>
+<!-- THIS IS THE CORRECTED, SMALLER TYPING ANIMATION (size=28) -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.vercel.app/api?font=Fira+Code&size=28&duration=3500&pause=1000&color=00BFFF¢er=true&width=1000&lines=Hi+%F0%9F%91%8B%2C+I'm+Hitesh+Kumar;AI+%26+Machine+Learning+Engineer;Architecting+Intelligent+Systems;Specializing+in+Generative+AI%2C+LLMs+%26+MLOps;Let's+build+the+future%2C+one+model+at+a+time+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
 <br>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=hiteshydv001&" alt="hiteshydv001" /></p>
+<table>
+<tr>
+<td width="65%" valign="top">
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=hiteshydv001&show_icons=true&locale=en&layout=compact" alt="hiteshydv001" /></p>
+### **About Me**
+<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"> I am a passionate and driven Computer Science Engineer from **Chandigarh University**, specializing in Artificial Intelligence and Machine Learning. My mission is to architect robust, scalable AI solutions that solve complex, real-world challenges. I thrive on building with cutting-edge technologies and collaborating on innovative projects.
 
+- 🌱 I’m currently diving deep into **Multi-Agent Systems** and **Retrieval-Augmented Generation (RAG)**.
+- 🔭 I’m actively seeking impactful **internships** and **research opportunities** in the AI/ML domain.
+- 📫 Let's connect and innovate: **hiteshofficial0001@gmail.com**
 
-## Competitive Programming
+<p align="left">
+  <a href="https://www.linkedin.com/in/hitesh-kumar-001/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/Hiteshydv001" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://kaggle.com/hiteshofficial" target="_blank"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white"></a>
+  <a href="mailto:hiteshofficial0001@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+</p>
 
-I have a strong passion for competitive programming and have achieved significant milestones in various coding platforms
+</td>
+<td width="35%" valign="top">
+  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Coding GIF" width="100%">
+</td>
+</tr>
+</table>
 
-## Education
+---
 
-- B.Tech. in Computer Engineering (2nd Year) - Chandigarh University, Punjab
-- (Intermediate) - Pathfinder Global School, Pataudi (88%)
-- (Matric) - Pathfinder Global School, Pataudi (91.4%)
+### **🛠️ My Tech Stack & Skills**
 
-## Projects
+<table>
+  <tr>
+    <td align="center"><strong>🤖 AI/ML</strong></td>
+    <td><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-008661?style=for-the-badge&logo=langchain&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>💻 Languages</strong></td>
+    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>☁️ Cloud & DB</strong></td>
+    <td><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white"/> <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white"/></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>🚀 Deployment</strong></td>
+    <td><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/></td>
+  </tr>
+</table>
 
-Here are some noteworthy projects I've worked on:
+---
 
-1. **Train waitlisted ticket confirmation prediction || December 2022:** (Machine learning)
-   - Tech stack: Python || Google Collaboratory
+### **💼 Professional Experience & Volunteering**
+<details>
+  <summary><strong>Web Developer</strong> @ African Association of Entrepreneurs (Oct 2024 - Jan 2025)</summary>
+  <ul>
+    <li>Developed and maintained the French version of the website, increasing accessibility for 15,000+ users.</li>
+    <li>Translated and localized 50+ articles, boosting user engagement by 20%.</li>
+    <li>Streamlined publishing workflows with WordPress CMS, reducing update time by 30%.</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>AI/ML Intern</strong> @ Edunet Foundation (AICTE & SHELL) (Nov 2024 - Dec 2024)</summary>
+  <ul>
+    <li>Built a waste classification model using CNN & YOLO with 92% test accuracy.</li>
+    <li>Deployed a real-time Streamlit demo that ranked in the top 40 out of 5,000+ submissions.</li>
+    <li>Enhanced model inference speed by 25% for efficient real-time usage.</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>Volunteer - Science & Technology</strong> @ UNDP Kenya (Nov 2024 - Dec 2024)</summary>
+  <ul>
+    <li>Promoted UNDP's AI initiatives and contributed to the launch of the Africa Centre of Competence for Digital & AI Skilling.</li>
+  </ul>
+</details>
+<details>
+  <summary><strong>AI Research Volunteer</strong> @ Think Blue Data (Sep 2024 - Oct 2024)</summary>
+  <ul>
+    <li>Annotated and curated 10,000+ data samples for urban planning AI models.</li>
+    <li>Collaborated on developing AI-driven solutions for sustainable development in Thailand.</li>
+  </ul>
+</details>
 
-2. **Goverment exam app || January 2023:** (Android App)
-   - Tech stack: Kotlin || XML || Android studio || Google play console
+---
 
-3. **SMS spam detection || September 2023:** (Web)
-   - Tech stack: Machine learning || Web devlopment ||Python || Google Collaboratory ||          || HTML || CSS || Java script
-   
-4. **Mask detection || September 2023:** (Machine learning || Web devlopment)
-   - Tech stack: Python || Google Collaboratory || HTML || CSS || Java script
-   
- ## Skills
+### **🔬 Featured Projects**
 
-- Competitive Coding
-- Machine Learning, Deep Learning
-- Programming Languages: Core Java, Python
-- Web development (HTML/CSS/JAVA SCRIPT)
-- Android development (Kotin)
-- C || C++ || JAVA || PYTHON
-- Machine learning and Artificial intelligence
-- MS office
+<details>
+  <summary><strong>Multi-RAG-Agent Tools</strong> - An advanced multi-agent system for content automation.</summary>
+  <ul>
+    <li><b>Description:</b> Engineered a Multi-Agent AI system automating text summarization, article generation, and data sanitization, improving workflow efficiency by 40%.</li>
+    <li><b>Tech Stack:</b> Python, Streamlit, FAISS, Hugging Face, Gemini API, NextJS, Flask</li>
+    <li><b>Links:</b> <a href="https://github.com/Hiteshydv001/Multi-RAG-Agent-Tools">GitHub</a> | <a href="https://multi-rag-agent-tools.streamlit.app/">Live Demo</a></li>
+  </ul>
+</details>
+<details>
+  <summary><strong>Guard AI</strong> - A real-time, AI-powered remote proctoring system.</summary>
+  <ul>
+    <li><b>Description:</b> Developed a proctoring system with real-time facial recognition, gaze tracking, and lip movement detection to enhance exam integrity.</li>
+    <li><b>Tech Stack:</b> Python, FastAPI, OpenCV, Machine Learning, Streamlit, NextJS</li>
+    <li><b>Links:</b> <a href="https://github.com/Hiteshydv001/Guard-AI-Remote-Proctoring-System">GitHub</a> | <a href="https://guard-ai.vercel.app/">Live Demo</a></li>
+  </ul>
+</details>
+<details>
+  <summary><strong>LinkedIn Automate Comment</strong> - An AI-driven system to boost LinkedIn engagement.</summary>
+  <ul>
+    <li><b>Description:</b> Built an automation system that processes 1,000+ posts daily, using sentiment analysis and LLMs to generate relevant comments with 90% accuracy.</li>
+    <li><b>Tech Stack:</b> Python, Selenium, Gemini API, FastAPI, Streamlit, Playwright</li>
+    <li><b>Links:</b> <a href="https://github.com/Hiteshydv001/LinkedIn-Automate-Comment">GitHub</a> | <a href="https://linkedin-automate-comment.streamlit.app/">Live Demo</a></li>
+  </ul>
+</details>
 
-## Competencies
+---
 
+### **📜 Research & Certifications**
 
-Here are my key competencies and skills:
+#### **Published Research**
+- **Train Waitlisted Ticket Confirmation Prediction Using Machine Learning**
+  - *Published in ICACCTech 2024 (IEEE Xplore). Developed a model to predict train ticket confirmation probability.*
+- **Weather-Integrated Traffic Routing with Dynamic Speed Prediction**
+  - *Accepted at ICRAAI 2025. Designed AI models for smart city traffic optimization using real-time weather data.*
 
-- ![java](https://img.shields.io/badge/java-%FFA50.svg?style=for-the-badge&logo=java&logoColor=black)
-- ![cpp](https://img.shields.io/badge/c%2B%2B-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
-- ![python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+#### **Top Certifications**
+- Salesforce Certified AI Specialist & AI Associate
+- Microsoft Certified: Azure AI Fundamentals (AI-900)
+- Oracle Certified Professional: Generative AI
+- Databricks: Generative AI Fundamentals
+- GitHub Foundations & Postman API Expert
 
+---
 
-## Machine Learning & Deep Learning 
+### **📊 My GitHub Activity**
 
-- ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-- ![pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-- ![pytorch](https://img.shields.io/badge/pytorch-%23EE4C2C.svg?style=for-the-badge&logo=&logoColor=white)
-- ![matplotlib](https://img.shields.io/badge/matplotlib-%23FF6C37.svg?style=for-the-badge&logo=matplotlib&logoColor=white) 
-- ![kaggle](https://img.shields.io/badge/kaggle-%2320BEFF.svg?style=for-the-badge&logo=kaggle&logoColor=white)
-
-<br>
-
-## Let's connect:
-
-
-- Email: [hiteshofficial0001@gmail.com](mailto:hiteshofficial0001@gmail.com)
-- LinkedIn: [@Hitesh Kumar LinkedIn](https://www.linkedin.com/in/hitesh-kumar-4b2735252/)
-
-```javascript
-const Hitesh_Kumar = {
-  workingOn: "Competitive programming 🔭",
-  learning: "Machine Learning 🌱",
-  lookingToCollaborateOn: "Open to collaboration on competitive programming projects 👯",
-  lookingForHelpWith: "Seeking assistance with challenging competitive programming problems 🤔",
-  askMeAbout: "Feel free to ask me about competitive programming or any coding-related questions 💬",
-  howToReachMe: "You can reach me for competitive programming discussions via email or LinkedIn 📫",
-  passion: "I am passionate about competitive programming, finding challenge, fun, and joy in it 😄",
-  funFact: "Fun fact: Competitive programming is not just a hobby; it's my passion! ⚡",
-};
-
-console.log(Hitesh_Kumar);
-```
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Hiteshydv001">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=hiteshydv001&label=PROFILE%20VIEWS&color=00BFFF&style=for-the-badge" alt="Profile Views"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=hiteshydv001&show_icons=true&theme=tokyonight&rank_icon=github&card_width=450" alt="Hitesh's GitHub Stats"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hiteshydv001&theme=tokyonight&card_width=450" alt="Hitesh's GitHub Streak"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Hiteshydv001&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="Hitesh's Trophies"/>
+</p>
