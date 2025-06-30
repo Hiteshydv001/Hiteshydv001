@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<!-- THIS IS THE CORRECTED, SMALLER TYPING ANIMATION (size=28) -->
+<!-- Corrected the typo in the link for the typing animation -->
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.vercel.app/api?font=Fira+Code&size=28&duration=3500&pause=1000&color=00BFFF¢er=true&width=1000&lines=Hi+%F0%9F%91%8B%2C+I'm+Hitesh+Kumar;AI+%26+Machine+Learning+Engineer;Architecting+Intelligent+Systems;Specializing+in+Generative+AI%2C+LLMs+%26+MLOps;Let's+build+the+future%2C+one+model+at+a+time+%F0%9F%9A%80" alt="Typing SVG" /></a>
 
 <br>
@@ -36,26 +36,13 @@
 
 ---
 
-### **🛠️ My Tech Stack & Skills**
+### **🚀 My AI Terminal**
 
-<table>
-  <tr>
-    <td align="center"><strong>🤖 AI/ML</strong></td>
-    <td><img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white"/> <img src="https://img.shields.io/badge/LangChain-008661?style=for-the-badge&logo=langchain&logoColor=white"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>💻 Languages</strong></td>
-    <td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=sql&logoColor=white"/> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>☁️ Cloud & DB</strong></td>
-    <td><img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white"/> <img src="https://img.shields.io/badge/Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white"/></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>🚀 Deployment</strong></td>
-    <td><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/> <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Hiteshydv001/Hiteshydv001">
+    <img src="https://github.com/Hiteshydv001/Hiteshydv001/blob/main/svgviewer-output.svg" alt="Hitesh's Animated Terminal" width="800">
+  </a>
+</p>
 
 ---
 
