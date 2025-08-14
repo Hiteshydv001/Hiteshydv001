@@ -1,5 +1,3 @@
-# 🚀 Hitesh Kumar | AI & Machine Learning Engineer
-
 <div align="center">
 
 ![Banner](https://github.com/Hiteshydv001/Hiteshydv001/blob/main/banner.png)
@@ -11,7 +9,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=hiteshydv001&label=PROFILE%20VIEWS&color=00BFFF&style=for-the-badge)](https://github.com/hiteshydv001)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hitesh-kumar-aiml/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Hiteshydv001)
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://kaggle.com/hiteshofficial)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/hiteshkumar001)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://hitesh-projects.vercel.app)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hiteshofficial0001@gmail.com)
 
@@ -41,7 +39,7 @@ Highly motivated **AI/ML Engineering** student specializing in building and lead
 
 ### 📫 **Let's Connect**
 **Email:** hiteshofficial0001@gmail.com  
-**Portfolio:** [hitesh-projects.vercel.app](https://hitesh-projects.vercel.app)
+**Portfolio:** [hitesh-aiml.vercel.app](https://hitesh-aiml.vercel.app/)
 
 </td>
 <td width="40%" valign="top">
