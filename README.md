@@ -17,43 +17,6 @@
 
 ---
 
-## 🌟 Professional Summary
-
-<table>
-<tr>
-<td width="60%" valign="top">
-
-### 🎯 **Vision & Mission**
-Highly motivated **AI/ML Engineering** student specializing in building and leading complex, end-to-end software solutions. Proven experience as a **Project Administrator** and **Mentor** for multiple open-source programs, including **GirlScript Summer of Code**, where I led the development of advanced voice AI platforms.
-
-### 🔬 **Core Expertise**
-- 🧠 **Deep AI/ML Knowledge**: RAG, LLMs, Computer Vision, Generative AI
-- 🏗️ **Full-Stack Development**: Python, FastAPI, Next.js, React, TypeScript
-- ⚡ **MLOps & DevOps**: Docker, CI/CD, PostgreSQL, Redis
-- 👥 **Leadership**: Open-source project management, team mentoring
-- 🎯 **Current Focus**: Multi-Agent Systems, Voice AI, Intelligent Automation
-
-### 🎓 **Education Background**
-**B.E. Computer Science (AI & ML Specialization)**  
-*Chandigarh University* | **CGPA: 8.02/10.0** | Expected 2026
-
-### 📫 **Let's Connect**
-**Email:** hiteshofficial0001@gmail.com  
-**Portfolio:** [hitesh-aiml.vercel.app](https://hitesh-aiml.vercel.app/)
-
-</td>
-<td width="40%" valign="top">
-
-<div align="center">
-  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" alt="Coding Animation" width="100%">
-</div>
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🖥️ **AI Terminal Showcase**
 
 <div align="center">
@@ -62,451 +25,147 @@ Highly motivated **AI/ML Engineering** student specializing in building and lead
 
 ---
 
-## 💼 **Professional Experience**
+## 🧑‍💻 Professional Experience
 
-<details open>
-<summary><h3>🤖 <strong>AI/ML Intern</strong> @ 100 GAJ</h3></summary>
+**AI/ML Intern – Algoric (formerly 100GAJ, Gajsphere Pvt. Ltd.)**  
+Jun 2025 – Sep 2025 · Remote  
+Contributed to AI and data engineering initiatives in the real estate domain.
+- Built a complete property data processing pipeline for Delhi datasets using Pandas and NumPy.
+- Developed and deployed a Retrieval-Augmented Generation (RAG) chatbot using LangChain, LlamaIndex, and Playwright for property insights.
+- GitHub: [Property-Prices](https://github.com/Hiteshydv001/Property-Prices) | [100GAJ-Chatbot](https://github.com/Hiteshydv001/100GAJ-Chatbot)
 
-```yaml
-Duration: Jun 2024 - Present
-Type: Advanced AI/ML Research & Development
-Focus: Retrieval-Augmented Generation (RAG)
-Mode: Remote
-```
-
-**Key Achievements:**
-- 🚀 Developing and implementing advanced **AI/ML models** with focus on **RAG systems**
-- ⚡ Enhanced data processing and retrieval systems using cutting-edge ML techniques
-- 🤝 Collaborating with engineering teams to integrate ML solutions into production pipelines
-- 📊 Optimizing model performance for real-world deployment scenarios
-
-</details>
-
-<details>
-<summary><h3>👨‍💼 <strong>Project Administrator</strong> @ GirlScript Summer of Code (GSSoC)</h3></summary>
-
-```yaml
-Duration: Jul 2024 - Present
-Type: Open Source Program Leadership
-Projects: DialogWeaver & Voice Marketing Agents
-Community: Global Contributors
-```
-
-**Leadership Achievements:**
-- 🏆 Led and managed **2 major open-source projects** selected for GSSoC program
-- 👥 Mentored **global community of contributors** with code reviews and feature development
-- 🎯 Focused on advancing **voice AI technologies** and real-time communication systems
-
-**🎙️ DialogWeaver Project:**
-- 🏗️ Architected open-source platform for **real-time, interruptible voice agents**
-- 🔧 **Tech Stack:** Python, FastAPI, PostgreSQL, WebSockets, Next.js, React, TypeScript, Docker, Redis
-- ⚡ Achieved **provider-agnostic design** for maximum flexibility
-
-**🗣️ Voice Marketing Agents:**
-- 🚀 Spearheaded framework for **cost-free, customizable voice AI** for business applications
-- ⏱️ Achieved **sub-2-second response times** for optimal user experience
-- 🛠️ **Tech Stack:** Python, FastAPI, React, Vite, faster-whisper, Ollama, Coqui TTS, Docker
-
-</details>
-
-<details>
-<summary><h3>🔧 <strong>Project Maintainer</strong> @ Delta Winter of Code (DWoC)</h3></summary>
-
-```yaml
-Duration: Jan 2024 - Mar 2024
-Organization: Delta Force (NIT Trichy)
-Type: Open Source Mentorship
-Focus: ML & Next.js Development
-```
-
-**Mentorship Impact:**
-- 🎓 Mentored contributors in **machine learning** and **Next.js** development
-- 📝 Guided participants through contribution processes and best practices
-- 🔄 Reviewed pull requests and fostered collaborative development environment
-- 🌱 Helped build strong open-source community engagement
-
-</details>
-
-<details>
-<summary><h3>🛡️ <strong>Project Maintainer</strong> @ JGEC Winter of Code (JWoC)</h3></summary>
-
-```yaml
-Duration: Jan 2024 - Mar 2024
-Projects: Guard AI & LinkedIn-Automation
-Type: Multi-Project Leadership
-Community: Open Source Contributors
-```
-
-**Project Leadership:**
-- 🎯 Maintained **2 selected open-source projects** with comprehensive guidance
-- 👨‍🏫 Mentored contributors on development best practices and code quality
-
-**🛡️ Guard AI Project:**
-- 🔍 Oversaw development of **AI-powered remote proctoring system**
-- 🎓 Ensured academic integrity using **advanced ML techniques**
-- 🏗️ **Architecture:** Python/Flask backend, Next.js frontend, MongoDB
-
-**🔗 LinkedIn-Automation:**
-- 🤖 Managed project for **automated LinkedIn interactions**
-- 📊 Implemented **post scraping, sentiment analysis, and AI-driven comment generation**
-- 🛠️ **Tech Stack:** Selenium, Python, NLP, Machine Learning
-
-</details>
-
-<details>
-<summary><h3>🎯 <strong>Project Maintainer & Mentor</strong> @ Social Winter of Code (SWOC)</h3></summary>
-
-```yaml
-Duration: Dec 2023 - Mar 2024
-Project: Guard-AI Remote Proctoring System
-Type: Full-Stack Mentorship
-Technologies: Python, Flask, Next.js, MongoDB
-```
-
-**Mentorship Excellence:**
-- 👨‍🎓 Mentored contributors on **Guard-AI** remote proctoring system
-- 🔄 Guided development on both **Python/Flask backend** and **Next.js frontend**
-- 🗄️ Utilized **MongoDB** for efficient data storage and retrieval
-- 🏆 Successfully completed project with multiple contributor success stories
-
-</details>
-
-<details>
-<summary><h3>⛓️ <strong>Blockchain Intern</strong> @ VOIS & Vodafone Idea Foundation</h3></summary>
-
-```yaml
-Duration: Jan 2024 - Feb 2024
-Program: CSR Program Initiative
-Type: Blockchain Development
-Focus: Decentralized Systems
-```
-
-**Innovation Achievements:**
-- 🏠 Designed and developed **decentralized land registry system**
-- 🔐 Implemented **secure, transparent, and immutable ownership records**
-- ⛓️ **Technologies:** Ethereum, Solidity, Web3.py, Ganache, MetaMask
-- 🌍 Contributed to digital transformation in real estate sector
-
-</details>
-
-<details>
-<summary><h3>🌍 <strong>Web Developer Intern</strong> @ African Association of Entrepreneurs</h3></summary>
-
-```yaml
-Duration: Oct 2023 - Jan 2024
-Type: International Development
-Focus: Multilingual Web Development
-Impact: Expanded Global Reach
-```
-
-**Global Impact:**
-- 🌐 Developed **French version** of organization's main website
-- 🔄 Translated **all website content, articles, and blogs** from English to French
-- 🛠️ **Technology:** WordPress CMS with custom modifications
-- 📈 Expanded audience reach to **French-speaking regions** across Africa
-
-</details>
-
-<details>
-<summary><h3>🏆 <strong>AI/ML Intern</strong> @ Edunet Foundation (AICTE & SHELL)</h3></summary>
-
-```yaml
-Duration: Nov 2023 - Dec 2023
-Achievement: Top 60 out of 5000+ candidates
-Type: Competitive AI/ML Development
-Focus: Environmental AI Solutions
-```
-
-**Outstanding Performance:**
-- 🥇 **Selected among top 60** out of **5000+ candidates** for final presentation
-- 🗂️ Engineered waste classification system using **CNN and pre-trained YOLO model**
-- 📱 Built **Streamlit frontend** for user-friendly interaction
-- ♻️ Focused on **environmental sustainability** through AI innovation
-
-</details>
-
-<details>
-<summary><h3>📊 <strong>Volunteer Data Annotator</strong> @ Think Blue Data</h3></summary>
-
-```yaml
-Duration: Sep 2023 - Oct 2023
-Type: International Data Science Project
-Location: Thailand & Asian Countries
-Focus: Urban Planning AI
-```
-
-**Data Science Contribution:**
-- 🏢 Annotated large dataset of **building topology and passive features**
-- 🛠️ **Technology:** Label Studio for professional data annotation
-- 🌏 Assisted in developing model dataset for **societal planning initiatives**
-- 🎯 Contributed to **sustainable urban development** in Asia
-
-</details>
-
-<details>
-<summary><h3>🌱 <strong>Generation Green Intern</strong> @ AICTE & Oppo India</h3></summary>
-
-```yaml
-Duration: Aug 2023 - Oct 2023
-Program: Sustainability & Green Skills Development
-Focus: AI for Environmental Solutions
-Type: Educational Initiative
-```
-
-**Green Innovation Learning:**
-- ♻️ Developed **green skills** and learned about **e-waste management systems**
-- 🤖 Explored the role of **AI in promoting sustainability**
-- 🌍 Contributed to environmental awareness and sustainable technology practices
-- 📚 Enhanced knowledge in **sustainable AI development**
-
-</details>
-
-<details>
-<summary><h3>🌍 <strong>Volunteer</strong> @ UNDP Kenya</h3></summary>
-
-```yaml
-Duration: Nov 2023 - Dec 2023
-Type: International Development Volunteer
-Focus: AI for Sustainable Development
-Partners: UNDP, Microsoft, MoICTKenya
-```
-
-**Global Impact:**
-- 🌟 Raised **global awareness** for AI programs by **UNDP, Microsoft, and MoICTKenya**
-- 🎓 Promoted **digital and AI skills** for public servants
-- 🎯 Advanced **SDG progress** through technology education
-- 🤝 Contributed to **international development** initiatives
-
-</details>
-
-<details>
-<summary><h3>🚀 <strong>Accelerator</strong> @ Ministry of Social Development, Thailand</h3></summary>
-
-```yaml
-Duration: Nov 2023
-Organization: MSDHS Thailand
-Program: SDG Accelerator
-Theme: 2023 International Volunteer Day
-```
-
-**International Recognition:**
-- 🎯 Participated in accelerator program promoting **volunteerism for SDGs**
-- 🌍 Aligned with **2023 International Volunteer Day** theme
-- 🤝 Contributed to **sustainable development** through technology volunteerism
-- 📈 Enhanced global perspective on **technology for social good**
-
-</details>
+**Skills:** RAG · LangChain · Flask · LlamaIndex · Pandas · NumPy · Docker
 
 ---
 
-## 🛠️ **Featured Projects Portfolio**
+**AI/ML Intern – Edunet Foundation (AICTE & Shell)**  
+Nov 2024 – Dec 2024 · Remote  
+Built a waste classification system using CNN and YOLO models; project selected among top 60 nationwide.
 
-<div align="center">
+**Skills:** CNN · Streamlit · YOLO · Python
 
-### 🎯 **Innovative AI Solutions**
+---
 
-</div>
+**Web Developer – African Association of Entrepreneurs (AAE)**  
+Oct 2024 – Jan 2025 · Remote (USA)  
+Designed and deployed the French version of the AAE main website using WordPress CMS and translated all articles.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Skills:** WordPress Design · CMS Development
 
-#### 🤖 **AI-Powered Portfolio Chatbot (HiteshBot)**
-*Intelligent Personal Assistant | Jun 2024*
+---
 
-```python
-# Advanced Features
-- Decoupled Architecture Design
-- RAG Pipeline Implementation
-- Context-Aware Responses
-- Real-time Interaction
-- Scalable Deployment
-```
+**AI Intern – CodeClause**  
+Sep 2023 – Oct 2023 · Remote  
+Developed ML solutions for spam classification, mask detection, and personality prediction.
 
-**Innovation Highlights:**
-- 🏗️ **Architecture:** Python/FastAPI backend + Next.js/TypeScript frontend
-- 🧠 **AI Engine:** LlamaIndex + Google Gemini for intelligent responses
-- 🚀 **Deployment:** Production-ready on Render platform
-- 💬 **Capability:** Natural language interaction about professional background
+**Skills:** Machine Learning · NLP · Computer Vision
 
-**Tech Stack:** `LlamaIndex` `Google Gemini` `FastAPI` `Next.js` `TypeScript` `Tailwind CSS` `Render`
+---
 
-</td>
-<td width="50%" valign="top">
+**AI/ML Intern – Think Blue Data**  
+Sep 2024 – Oct 2024 · Remote (Thailand)  
+Contributed to dataset annotation and societal planning models for sustainable development.
 
-#### 🗺️ **AI Trip Planner Agent**
-*Intelligent Travel Companion | Jun 2024*
+**Skills:** Label Studio · Annotation · ML · AI
 
-```javascript
-// Smart Planning Features
-- Natural Language Processing
-- Personalized Itineraries
-- Real-time API Integration
-- Context-aware Suggestions
-- Multi-source Data Fusion
-```
+---
 
-**Technical Excellence:**
-- 🎯 **Intelligence:** Processes natural language travel prompts
-- 🌍 **Integration:** Amadeus API for travel data, SerpAPI for enrichment
-- 🔗 **Framework:** LangChain for sophisticated agent behavior
-- 📱 **Interface:** Responsive web application design
+## 🌱 Green Internship
 
-**Tech Stack:** `LangChain` `FastAPI` `Amadeus API` `SerpAPI` `Python` `HTML/CSS`
+**Generation Green Internship – AICTE & OPPO India**  
+Aug 2024 – Oct 2024 · Remote  
+Focused on promoting sustainable technology through AI-driven e-waste management and green skills training.
 
-</td>
-</tr>
-</table>
+**Skills:** AI · Sustainability · E-Waste Recycling
 
-<div align="center">
+---
 
-#### 🤖 **Multi-Agent RAG Tool**
-*Collaborative AI System | Feb 2024*
+## 💻 Open Source Contributions
 
-```yaml
-System Architecture:
-  - Multi-Agent Coordination: Advanced
-  - Task Distribution: Intelligent
-  - Response Synthesis: Collaborative
-  - User Interface: Streamlit
-  - AI Engine: Gemini API
-```
+**Project Administrator – GirlScript Summer of Code (GSSoC)**  
+Jul 2025 – Present · Remote  
+Leading two open-source projects advancing voice AI systems while mentoring contributors.
 
-**Revolutionary Features:**
-- 🧠 **Multi-Agent Intelligence** - Collaborative AI agents working together
-- 🔄 **Complex Task Handling** - Distributed processing for sophisticated queries
-- ⚡ **Real-time Collaboration** - Seamless agent-to-agent communication
-- 📊 **Interactive Dashboard** - User-friendly Streamlit interface
+Projects:
+- **DialogWeaver:** Real-time, provider-agnostic voice agent platform using Deepgram, OpenAI, and ElevenLabs.
+- **Voice Marketing Agents:** Cost-free AI voice system using faster-whisper, Ollama, and Coqui TTS.
 
-**Tech Stack:** `Gemini API` `RAG` `Streamlit` `Python` `Multi-Agent Systems`
+**Skills:** FastAPI · React · Docker · AI Voice Systems
 
-</div>
+---
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Project Maintainer – JGEC Winter of Code (JWoC)**  
+Jan 2025 – Mar 2025 · Remote  
+Led open-source AI projects selected for JWoC.
 
-#### ♻️ **Waste Classification Model**
-*Environmental AI Solution | Nov-Dec 2023*
+- **Guard AI:** Remote proctoring using ML and vision-based monitoring.
+- **LinkedIn Automation:** Automated post scraping, sentiment analysis, and AI comment generation.
 
-```python
-# AI Model Specifications
-- Architecture: Custom CNN
-- Classification: Organic/Inorganic
-- Interface: Streamlit Web App
-- Performance: High Accuracy
-- Impact: Environmental Sustainability
-```
+**Skills:** Python · Selenium · Machine Learning · AI
 
-**Environmental Impact:**
-- 🌍 **Sustainability Focus:** AI for environmental protection
-- 🏆 **Achievement:** Top 60/5000+ in AICTE-SHELL program
-- 🔬 **Technology:** Advanced computer vision techniques
-- 📱 **Accessibility:** User-friendly web interface
+---
 
-**Tech Stack:** `TensorFlow` `OpenCV` `Streamlit` `CNN` `Python`
+**Project Maintainer – Delta Winter of Code (DWoC)**  
+Jan 2025 – Mar 2025 · Remote  
+Mentored contributors in deep learning and web-based ML deployment projects.
 
-</td>
-<td width="50%" valign="top">
+**Skills:** Machine Learning · Deep Learning · Next.js
 
-#### 🎬 **Content-Based Movie Recommendation**
-*Intelligent Entertainment System | Oct 2023*
+---
 
-```javascript
-// Recommendation Engine
-- Algorithm: Cosine Similarity
-- Features: Genre, Cast, Plot
-- Processing: Content Analysis
-- Output: Personalized Suggestions
-- Accuracy: High Relevance Score
-```
+**Project Maintainer & Mentor – Social Winter of Code (SWoC)**  
+Dec 2024 – Mar 2025 · Remote  
+Guided developers contributing to AI-based open-source applications.
 
-**Smart Recommendations:**
-- 🎯 **Personalization:** Content-based filtering algorithm
-- 📊 **Analysis:** Multi-feature content analysis
-- 🔍 **Similarity:** Advanced cosine similarity calculations
-- 🎭 **Features:** Genre, cast, director, plot analysis
+**Skills:** Flask · MongoDB · Next.js · Python
 
-**Tech Stack:** `Python` `Scikit-learn` `Pandas` `NumPy` `Content Analysis`
+---
 
-</td>
-</tr>
-</table>
+**Blockchain Intern – Vodafone Idea Foundation (VOIS)**  
+Jan 2025 – Feb 2025 · Remote  
+Developed a blockchain-based land registry using Solidity and Ethereum for secure record keeping.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+**Skills:** Blockchain · Solidity · MetaMask · Ganache
 
-#### 🎵 **Spotify Music Recommendation System**
-*Personalized Music Discovery | Oct 2023*
+---
 
-```yaml
-Integration Features:
-  - Spotify API: Real-time Data
-  - Similarity Model: Advanced ML
-  - User Interface: Streamlit
-  - Recommendations: Personalized
-  - Performance: Real-time Response
-```
+## 🌍 Volunteering
 
-**Music Intelligence:**
-- 🎼 **API Integration:** Direct Spotify API connectivity
-- 🧠 **ML Model:** Sophisticated similarity algorithms
-- 🎨 **UI/UX:** Beautiful Streamlit web application
-- 📊 **Analytics:** User preference analysis
+**Accelerator – Ministry of Social Development and Human Security (Thailand)**  
+Nov 2023 · 1 mo  
+Supported community participation initiatives aligned with UN Sustainable Development Goals (SDGs).
 
-**Tech Stack:** `Spotify API` `Streamlit` `Python` `Machine Learning` `Audio Analysis`
+---
 
-</td>
-<td width="50%" valign="top">
+**Volunteer – UNDP Kenya**  
+Nov 2024 – Dec 2024 · 2 mos  
+Promoted global awareness of AI programs under UNDP's Africa Centre of Competence for Digital & AI Skilling.
 
-#### ⛏️ **Rock vs. Mine Prediction System**
-*Sonar Signal Classification | Oct 2023*
+---
 
-```python
-# Classification System
-- Algorithm: Logistic Regression
-- Data: Sonar Signal Patterns
-- Accuracy: High Precision
-- Application: Maritime Safety
-- Processing: Signal Analysis
-```
+**Awareness Lead & Publication Lead – African Association of Entrepreneurs (AAE)**  
+Feb 2024 – Aug 2024 · 6 mos  
+Led awareness campaigns, managed volunteer writers, and co-authored reports on entrepreneurship ecosystems in Africa.
 
-**Technical Innovation:**
-- 🌊 **Application:** Maritime object detection
-- 📡 **Data Processing:** Advanced sonar signal analysis
-- 🎯 **Algorithm:** Optimized logistic regression
-- 🔍 **Accuracy:** High-precision classification system
+---
 
-**Tech Stack:** `Logistic Regression` `Python` `Scikit-learn` `Signal Processing` `NumPy`
+**Member – International Association of Engineers (IAENG)**  
+Apr 2023 – Present  
+Active member contributing to engineering and AI communities globally.
 
-</td>
-</tr>
-</table>
+---
 
-<div align="center">
+## 🛠️ Featured Projects
 
-#### 📚 **Government Exams Preparation App**
-*Educational Mobile Application | Sep-Oct 2023*
-
-```kotlin
-// Android Development
-- Platform: Native Android
-- Language: Kotlin + XML
-- Features: Comprehensive Study Tools
-- Target: Government Exam Aspirants
-- Architecture: Clean & Scalable
-```
-
-**Educational Impact:**
-- 📱 **Platform:** Native Android application development
-- 🎓 **Purpose:** Government exam preparation assistance
-- 🛠️ **Technology:** Modern Kotlin with XML layouts
-- 👥 **Target Audience:** Aspiring government job candidates
-
-**Tech Stack:** `Kotlin` `XML` `Android SDK` `Mobile Development` `Educational Technology`
-
-</div>
+| Project | Description | Tech Stack |
+|---------|-------------|-----------|
+| 🤖 AI-Powered Portfolio Chatbot | An intelligent RAG-based chatbot that answers questions about my professional background. | LlamaIndex · Gemini · FastAPI · Next.js · Render |
+| 🗺️ AI Trip Planner Agent | An agent that processes natural language to create personalized travel itineraries using real-time APIs. | LangChain · FastAPI · Amadeus API · SerpAPI |
+| 🤖 Multi-Agent RAG System | A collaborative AI system where multiple agents work together to handle complex user queries. | Gemini API · RAG · Streamlit · Multi-Agent Systems |
+| ♻️ Waste Classification Model | An award-winning AI solution (Top 60/5000+) that classifies waste with high accuracy. | TensorFlow · OpenCV · Streamlit · CNN |
+| 🎬 Movie Recommendation System | A recommendation engine suggesting movies based on content similarity using cosine similarity. | Python · Scikit-learn · Pandas |
+| 🎵 Spotify Music Recommender | A personalized music discovery tool that leverages the Spotify API and ML to recommend songs. | Spotify API · Streamlit · Machine Learning |
+| 📱 Govt. Exams Prep App | A native Android application built with Kotlin to help aspirants prepare for government exams. | Kotlin · XML · Android SDK |
 
 ---
 
