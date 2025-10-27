@@ -15,24 +15,21 @@
 
 </div>
 
----
 
-## 🖥️ **AI Terminal Showcase**
+## AI Terminal Showcase
 
 <div align="center">
   <img src="https://github.com/Hiteshydv001/Hiteshydv001/blob/main/svgviewer-output.svg" alt="Hitesh's Animated Terminal" width="800">
 </div>
 
----
 
-## 🧑‍💻 Professional Experience
+## Professional Experience
 
 **AI/ML Intern – Algoric (formerly 100GAJ, Gajsphere Pvt. Ltd.)**  
 Jun 2025 – Sep 2025 · Remote  
-Contributed to AI and data engineering initiatives in the real estate domain.
-- Built a complete property data processing pipeline for Delhi datasets using Pandas and NumPy.
-- Developed and deployed a Retrieval-Augmented Generation (RAG) chatbot using LangChain, LlamaIndex, and Playwright for property insights.
-- GitHub: [Property-Prices](https://github.com/Hiteshydv001/Property-Prices) | [100GAJ-Chatbot](https://github.com/Hiteshydv001/100GAJ-Chatbot)
+Worked on AI and data engineering projects in the real estate domain. I built a property data processing pipeline for Delhi datasets using Pandas and NumPy, and developed a Retrieval-Augmented Generation (RAG) chatbot using LangChain, LlamaIndex, and Playwright to provide property insights.
+
+GitHub: [Property-Prices](https://github.com/Hiteshydv001/Property-Prices) | [100GAJ-Chatbot](https://github.com/Hiteshydv001/100GAJ-Chatbot)
 
 **Skills:** RAG · LangChain · Flask · LlamaIndex · Pandas · NumPy · Docker
 
@@ -40,7 +37,7 @@ Contributed to AI and data engineering initiatives in the real estate domain.
 
 **AI/ML Intern – Edunet Foundation (AICTE & Shell)**  
 Nov 2024 – Dec 2024 · Remote  
-Built a waste classification system using CNN and YOLO models; project selected among top 60 nationwide.
+Built and refined a waste classification pipeline using convolutional neural networks and YOLO; the project was selected among the top 60 nationwide.
 
 **Skills:** CNN · Streamlit · YOLO · Python
 
@@ -48,7 +45,7 @@ Built a waste classification system using CNN and YOLO models; project selected 
 
 **Web Developer – African Association of Entrepreneurs (AAE)**  
 Oct 2024 – Jan 2025 · Remote (USA)  
-Designed and deployed the French version of the AAE main website using WordPress CMS and translated all articles.
+Designed and deployed a French-language version of AAE's main website and translated articles to increase reach among French-speaking audiences.
 
 **Skills:** WordPress Design · CMS Development
 
@@ -56,7 +53,7 @@ Designed and deployed the French version of the AAE main website using WordPress
 
 **AI Intern – CodeClause**  
 Sep 2023 – Oct 2023 · Remote  
-Developed ML solutions for spam classification, mask detection, and personality prediction.
+Worked on machine learning projects including spam classification, mask-detection, and personality-prediction models.
 
 **Skills:** Machine Learning · NLP · Computer Vision
 
@@ -64,23 +61,23 @@ Developed ML solutions for spam classification, mask detection, and personality 
 
 **AI/ML Intern – Think Blue Data**  
 Sep 2024 – Oct 2024 · Remote (Thailand)  
-Contributed to dataset annotation and societal planning models for sustainable development.
+Contributed to dataset annotation efforts and supported the development of societal planning models for sustainable development.
 
 **Skills:** Label Studio · Annotation · ML · AI
 
 ---
 
-## 🌱 Green Internship
+## Green Internship
 
 **Generation Green Internship – AICTE & OPPO India**  
 Aug 2024 – Oct 2024 · Remote  
-Focused on promoting sustainable technology through AI-driven e-waste management and green skills training.
+Focused on sustainable technology initiatives, including AI-driven e-waste management and practical green skills training.
 
 **Skills:** AI · Sustainability · E-Waste Recycling
 
 ---
 
-## 💻 Open Source Contributions
+## Open Source Contributions
 
 **Project Administrator – GirlScript Summer of Code (GSSoC)**  
 Jul 2025 – Present · Remote  
@@ -129,7 +126,7 @@ Developed a blockchain-based land registry using Solidity and Ethereum for secur
 
 ---
 
-## 🌍 Volunteering
+## Volunteering
 
 **Accelerator – Ministry of Social Development and Human Security (Thailand)**  
 Nov 2023 · 1 mo  
@@ -266,16 +263,16 @@ Active member contributing to engineering and AI communities globally.
 
 ---
 
-## 👥 **Leadership & Volunteering**
+## Leadership & Volunteering
 
 <div align="center">
 
-### 🌍 **Global Impact & Community Leadership**
+### Global Impact & Community Leadership
 
 </div>
 
 <details open>
-<summary><h3>🌍 <strong>Volunteer</strong> @ UNDP KENYA</h3></summary>
+<summary><h3>Volunteer @ UNDP Kenya</h3></summary>
 
 ```yaml
 Duration: Nov 2023 - Dec 2023
@@ -293,7 +290,7 @@ Partners: UNDP, Microsoft, MoICTKenya
 </details>
 
 <details>
-<summary><h3>🚀 <strong>Accelerator</strong> @ Ministry of Social Development, Thailand</h3></summary>
+<summary><h3>Accelerator @ Ministry of Social Development, Thailand</h3></summary>
 
 ```yaml
 Duration: Nov 2023
@@ -311,7 +308,7 @@ Theme: 2023 International Volunteer Day
 </details>
 
 <details>
-<summary><h3>📚 <strong>Publication Lead & Awareness Lead</strong> @ African Association of Entrepreneurs</h3></summary>
+<summary><h3>Publication Lead & Awareness Lead @ African Association of Entrepreneurs</h3></summary>
 
 ```yaml
 Duration: Feb 2023 - Aug 2023
@@ -660,9 +657,7 @@ Technology: Real-time Data Integration
 #### 📬 **Get In Touch**
 **Professional Email:** hiteshofficial0001@gmail.com  
 **Portfolio Website:** [hitesh-projects.vercel.app](https://hitesh-projects.vercel.app)  
-**Current Location:** Chandigarh, India  
-**Available For:** Remote & Hybrid opportunities globally  
-**Response Time:** Within 24 hours  
+**Current Location:** Chandigarh, India   
 
 </td>
 </tr>
