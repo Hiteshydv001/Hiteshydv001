@@ -525,54 +525,6 @@ Technology: Real-time Data Integration
 
 ---
 
-## 🎯 **Professional Skills Matrix**
-
-<div align="center">
-
-### 🧠 **Core Competencies**
-
-</div>
-
-<table>
-<tr>
-<td width="33%" valign="top" align="center">
-
-#### 🤖 **AI/ML Expertise**
-- **Deep Learning** ⭐⭐⭐⭐⭐
-- **Generative AI** ⭐⭐⭐⭐⭐
-- **RAG Systems** ⭐⭐⭐⭐⭐
-- **LLMs & NLP** ⭐⭐⭐⭐⭐
-- **Computer Vision** ⭐⭐⭐⭐⭐
-- **MLOps** ⭐⭐⭐⭐⚬
-
-</td>
-<td width="33%" valign="top" align="center">
-
-#### 💻 **Development Skills**
-- **Python** ⭐⭐⭐⭐⭐
-- **Full-Stack Dev** ⭐⭐⭐⭐⭐
-- **FastAPI/Flask** ⭐⭐⭐⭐⭐
-- **React/Next.js** ⭐⭐⭐⭐⚬
-- **TypeScript** ⭐⭐⭐⭐⚬
-- **Docker/DevOps** ⭐⭐⭐⭐⚬
-
-</td>
-<td width="33%" valign="top" align="center">
-
-#### 👥 **Leadership & Soft Skills**
-- **Project Management** ⭐⭐⭐⭐⭐
-- **Team Leadership** ⭐⭐⭐⭐⭐
-- **Mentoring** ⭐⭐⭐⭐⭐
-- **Open Source** ⭐⭐⭐⭐⭐
-- **Communication** ⭐⭐⭐⭐⭐
-- **Problem Solving** ⭐⭐⭐⭐⭐
-
-</td>
-</tr>
-</table>
-
----
-
 ## 🌟 **Key Achievements & Highlights**
 
 <div align="center">
@@ -755,7 +707,5 @@ Preferred Domains:
 *Ready to collaborate on groundbreaking AI projects that make a real impact? Let's connect and create something extraordinary together!*
 
 **🚀 The future is AI-powered, and together we can shape it! 🚀**
-
-[![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)](https://github.com/Hiteshydv001)
 
 </div>
